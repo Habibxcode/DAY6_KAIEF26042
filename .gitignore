@@ -1,0 +1,57 @@
+# Day 6 Neural Networks Mini-Project — README
+# =============================================
+
+# Part B — Classifier artefacts
+mnist_misclassified.png
+mnist_training_history.png
+
+# Part C — CNN artefacts & saved model
+traffic_training_history.png
+traffic_sample_predictions.png
+*.keras
+*.h5
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Jupyter artefacts
+.ipynb_checkpoints/
+*.ipynb
+
+# Downloaded / cached dataset files (Keras caches under ~/.keras by default,
+# but guard against any locally-stored copies)
+datasets/
+data/
+*.npz
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# MyPy / type-checking cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE & editor artefacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artefacts
+.DS_Store
+Thumbs.db
