@@ -140,7 +140,7 @@ Input(32,32,3) → [Augmentation]
 
 ---
 
-## Generated Files
+##  Files Created
 
 After running all three scripts the project directory will contain:
 
