@@ -20,6 +20,28 @@ This project is divided into three parts:
 
 ---
 
+## Screenshots
+
+### Part A — Backpropagation from Scratch (XOR Terminal Output)
+
+![XOR Training Output](backprop_xor_output.png)
+
+> The network trains for 5 000 epochs using gradient descent and correctly learns the XOR function — a problem that is impossible for a single-layer (linear) model.
+
+### Part B — MNIST Misclassified Examples
+
+![MNIST Misclassified](mnist_misclassified_output.png)
+
+> Five misclassified digits are highlighted with their **true** and **predicted** labels. The classifier achieves **> 97 % accuracy** on the 10 000-image test set.
+
+### Part C — CIFAR-10 CNN Results & Training Curves
+
+![CNN Results](traffic_cnn_output.png)
+
+> Left: sample predictions from the test set (green = correct, red = wrong). Right: accuracy and loss curves over 15 training epochs.
+
+---
+
 ## Prerequisites
 
 Make sure the following are installed before running any script.
@@ -152,11 +174,15 @@ day6_project/
 ├── mnist_classifier.py
 ├── traffic_cnn.py
 │
-├── mnist_misclassified.png       ← Part B output
-├── mnist_training_history.png    ← Part B output
-├── traffic_training_history.png  ← Part C output
-├── traffic_sample_predictions.png ← Part C output
-└── traffic_model.keras           ← Part C saved model (git-ignored)
+├── backprop_xor_output.png        ← Part A screenshot
+├── mnist_misclassified_output.png ← Part B screenshot
+├── traffic_cnn_output.png         ← Part C screenshot
+│
+├── mnist_misclassified.png        ← Part B runtime output
+├── mnist_training_history.png     ← Part B runtime output
+├── traffic_training_history.png   ← Part C runtime output
+├── traffic_sample_predictions.png ← Part C runtime output
+└── traffic_model.keras            ← Part C saved model (git-ignored)
 ```
 
 ---
