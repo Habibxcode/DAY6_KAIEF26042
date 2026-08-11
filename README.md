@@ -1,4 +1,4 @@
-# Day 6 — Mini Project: Neural Networks
+# Day 6 —  Project: Neural Networks
 
 > **Knots AI Engineering Foundation — Cohort 1 | Day 6**
 
